@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    background-color: #fff;
+    
+}
+
+.nav>.searchtab{
+    width: 63%;
+    height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav>.searchtab input{
+width: 100%;
+height: 60%;
+border-radius: 50px;
+border: none;
+background-color: rgb(244, 244, 244);
+}
+.nav>.searchtab input:hover{
+    background-color: rgb(233, 229, 229);
+}
+.nav>.searchtab i{
+    position: absolute;
+    padding: 10px;
+}
+#texts{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+#texts>#logo{
+    width: auto;
+    height: 60%;
+    border: 1px #fff solid;
+    border-radius: 50px; 
+    cursor: pointer;
+} 
+
+.nav>#texts button{
+    height: 60%;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 590;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+#icons{
+    height: 100%;
+    width: 13.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav>#icons img{
+    width: 44px;
+    height: 43px;
+    padding: 8px;
+    border:none;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.nav>#icons img:hover{
+    background-color: rgb(233, 229, 229);
+}
+
+.nav>#icons i{
+    padding: 10px;
+   text-align: center;
+    font-size: 23px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 100%;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    
+}
+.nav>#icons>#down-arrow{
+    padding: 3px;
+   text-align: center;
+    font-size: 23px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 100%;
+    border: none;    
+}
+.nav>#icons i:hover{
+    background-color: rgb(233, 229, 229);
+}
+.nav>#icons>#down-arrow:hover{
+    background-color: rgb(233, 229, 229);
+}
+
+
+#contents{
+    width: 100%;
+     padding-top:10px; 
+     columns: 5;
+     column-gap: 20px;
+     /* background-color: red; */
+}
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+.container .box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    break-inside: avoid;
+    border-radius: 15px;
+}
+.container .box:hover {
+    width: 100%;
+    margin-bottom: 15px;
+    break-inside: avoid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container .box  img {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 15px;   
+  }
+
+.container .box .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    opacity: 0;  
+}
+.container .box .overlay:hover{
+    opacity: 100%;
+}
+.container .box .overlay .overlaybox{
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgb(111, 109, 109);
+    opacity: 53%;
+    z-index: 1;
+
+}
+.container .box .overlay button{
+    padding: 9px 14px;
+    font-size: 17px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    z-index: 20;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;  
+}
+.container .box .overlay button:hover{
+    background-color: rgb(173, 2, 2);
+}
+.container .box .overlay .icons{
+  position: absolute;
+  bottom: 15px;
+  z-index: 2;
+  right: 10px;
+ 
+}
+.container .box .overlay i{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px black solid;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+}
+.container .box .overlay i:hover{
+    background-color: #e0dede;
+}
+
+
+
+  
+
+
+
+
